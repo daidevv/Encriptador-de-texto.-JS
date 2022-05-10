@@ -131,15 +131,6 @@ body {
 
 /*****************SIDERIGHT******************/
 
-.div_title img {
-    position: absolute;
-    width: 150px;
-    float: right;
-    top: 17%;
-    right: -9px;
-
-}
-
 .div_sideright_img {
     display: block;
     text-align: center;
@@ -264,6 +255,8 @@ footer {
 
 
 @media (min-width: 401px) and (max-width:768px) {
+    
+
     .div_sideleft {
         width: 100%;
         margin-top: 5%;
@@ -285,14 +278,6 @@ footer {
         margin-top: -4%;
     }
 
-    .div_title img {
-        position: absolute;
-        width: 150px;
-        float: right;
-        top: 17%;
-        right: 2%;
-
-    }
 
     .div_sideright_img img {
         display: none;
@@ -302,6 +287,10 @@ footer {
         margin-top: 2%;
         margin-bottom: 2%;
 
+    }
+
+    .redes img{
+        width: 8%;
     }
 
 }
